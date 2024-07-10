@@ -41,6 +41,21 @@ vector<int> BFSvector(vector<int>adj[],int v){
     }
     return ans;
 }
+//vector<int> g[N] , n , m
+bool vis[N]
+void DFS(int vertex){
+    //
+    vis[vertex]=true;
+    for(int child:g[vertex]){
+        //
+        if(vis[child]) continue;
+        dfs(child);
+        //
+    }
+    //
+    return isLoopExists;
+
+}
 
 int main(){
     int v=u;
